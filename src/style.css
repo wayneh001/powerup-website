@@ -1,0 +1,114 @@
+body {
+    background-color: #000000;
+}
+
+.bg-main {
+    background-color: #06F675;
+}
+
+.bg-dark-gray {
+    background-color: #262627;
+}
+
+.bg-black {
+    background-color: #000000;
+}
+
+.text-main {
+    color: #06F675;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.text-dark-gray {
+    color: #262627;
+}
+
+.btn-main {
+    background-color: #06F675 !important;
+    color: #262627 !important;
+}
+
+.btn-dark-gray {
+    background-color: #262627 !important;
+    color: #ffffff !important;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.height-rem-10 {
+    height: 10rem;
+}
+
+.active-segment {
+    background-color: #06F675 !important;
+    color: #262627 !important;
+    border-radius: 0.375rem;
+}
+
+.active-segment:hover {
+    background-color: #06F675 !important;
+    color: #262627 !important;
+}
+
+.custom-nav {
+    position: absolute;
+    padding: 1rem;
+    color: #ffffff !important;
+}
+
+.custom-nav:hover {
+    color: #aaafbc !important;
+}
+
+.nav-1 {
+    right: 1rem;
+    bottom: 9rem;
+    transform: rotate(81deg);
+}
+
+.nav-2 {
+    right: 3.75rem;
+    bottom: 7.75rem;
+    transform: rotate(63deg);
+}
+
+.nav-3 {
+    right: 6rem;
+    bottom: 6rem;
+    transform: rotate(45deg);
+    color: #06F675 !important;
+}
+
+.nav-4 {
+    right: 7.75rem;
+    bottom: 3.75rem;
+    transform: rotate(27deg);
+}
+
+.nav-5 {
+    right: 9rem;
+    bottom: 1rem;
+    transform: rotate(9deg);
+}
+
+.logo-font {
+    font-family: "SF Pro", sans-serif;
+    font-style: italic;
+}
