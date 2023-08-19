@@ -8,7 +8,6 @@
       <div class="d-flex justify-content-center">
         <img src="../public/img/logo-font.svg" class="img-fluid" alt="Logo Font">
       </div>
-      <div class="animate__animated animate__fadeInUp">POWERUP</div>
       <hr>
       <p class="text-white text-center fs-5 animate__animated animate__fadeIn">
         我們專注於面向使用者與管理者的電動車充電管理服務提供
@@ -24,11 +23,6 @@
 </template>
 
 <style scoped>
-
-.animate__fadeInUp {
-  animation-duration: 1s;
-}
-
 .animate__fadeIn {
   animation-duration: 1s;
   animation-delay: 1s;
