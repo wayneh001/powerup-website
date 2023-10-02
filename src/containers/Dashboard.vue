@@ -32,7 +32,7 @@ defineExpose({
   <div class="min-vh-100 mb-5 border-bottom border-white">
     <h1 class="text-main mb-3">{{ dashboard.title }}</h1>
     <h5 class="text-white mb-5">{{ dashboard.subTitle }}</h5>
-    <segment :options="dashboard.segmentOptions" class="mb-5" @to-change-label="toChangeContent"></segment>
+    <segment :options="dashboard.segmentOptions" class="mb-5" @to-change-label="toChangeContent"/>
     <div class="mb-5 text-white">
       <div v-for="(item, index) in activeSegment.description" :key="`2${index}`" class="mb-1 text-white">{{
           item

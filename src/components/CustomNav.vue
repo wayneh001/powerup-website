@@ -38,7 +38,7 @@ defineExpose({
         }}
       </button>
     </div>
-    <button class="nav-main-circle" @click.prevent="navItemsToggle = !navItemsToggle"></button>
+    <button class="nav-main-circle" @click.prevent="navItemsToggle = !navItemsToggle"/>
   </div>
 </template>
 

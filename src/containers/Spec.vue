@@ -21,7 +21,7 @@ defineExpose({
   <div class="min-vh-100 mb-5 border-bottom border-white">
     <h1 class="text-main mb-3">{{ spec.title }}</h1>
     <h5 class="text-white mb-5">{{ spec.subTitle }}</h5>
-    <segment :options="spec.segmentOptions" class="mb-5"></segment>
+    <segment :options="spec.segmentOptions" class="mb-5"/>
     <div class="d-flex overflow-scroll">
       <div v-for="(item, index) in spec.content" :key="index" class="col-12 col-md-2 text-white">
         <div class="w-100 d-flex justify-content-center">

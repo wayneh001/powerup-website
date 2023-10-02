@@ -102,14 +102,14 @@ defineExpose({
 <template>
   <div>
     <div class="container-xxl pb-5">
-      <about id="about"></about>
-      <spec id="spec"></spec>
-      <application id="application"></application>
-      <dashboard id="dashboard"></dashboard>
-      <business id="business"></business>
+      <about id="about"/>
+      <spec id="spec"/>
+      <application id="application"/>
+      <dashboard id="dashboard"/>
+      <business id="business"/>
     </div>
     <div class="sticky-bottom">
-      <custom-nav ref="customNavComponent" :nav-items="navItems" @to-scroll="toScroll"></custom-nav>
+      <custom-nav ref="customNavComponent" :nav-items="navItems" @to-scroll="toScroll"/>
     </div>
   </div>
 </template>

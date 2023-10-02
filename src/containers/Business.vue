@@ -35,7 +35,7 @@ defineExpose({
   <div class="min-vh-100">
     <h1 class="text-main mb-3">{{ business.title }}</h1>
     <h5 class="text-white mb-5">{{ business.subTitle }}</h5>
-    <segment :options="business.segmentOptions" class="mb-5" @to-change-label="toChangeContent"></segment>
+    <segment :options="business.segmentOptions" class="mb-5" @to-change-label="toChangeContent"/>
     <div class="mb-5 text-white">
       <div v-for="(item, index) in activeSegment.description" :key="`3${index}`" class="mb-1 text-white">{{
           item
